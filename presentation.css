@@ -18,6 +18,10 @@
    margin-top: 24px;
 }
 
+.presentation .contact-container a {
+   text-decoration: none;
+}
+
 .presentation .button-text {
    color: var(--yellow);
    border: 1px solid var(--yellow);

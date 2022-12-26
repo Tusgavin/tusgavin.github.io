@@ -8,6 +8,7 @@
 .certifications a {
    border: 1px solid var(--yellow);
    padding: 12px;
+   text-decoration: none;
 
    transition-duration: 0.4s;
 }

@@ -10,10 +10,6 @@
    background-color: var(--black);
 }
 
-a {
-   text-decoration: none;
-}
-
 /* Containers */
 .container {
    max-width: 1080px;
