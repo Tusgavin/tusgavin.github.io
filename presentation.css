@@ -1,4 +1,4 @@
-.presentation {
+.presentation .content {
    display: flex;
    align-items: center;
 }
@@ -24,6 +24,13 @@
    border: 1px solid var(--yellow);
    padding: 10px;
    margin-left: 10px;
+
+   transition-duration: 0.4s;
+}
+
+.presentation .contact-info:hover {
+   background-color: var(--yellow);
+   color: var(--black)
 }
 
 /* 920px to 1380px (laptop) */
@@ -39,7 +46,7 @@
 
 /* 580px to 920px (tablet) */
 @media screen and (max-width: 920px) {
-   .presentation {
+   .presentation .content {
       flex-direction: column;
    }
 
@@ -61,4 +68,8 @@
 
 /* up to 580px (mobile) */
 @media screen and (max-width: 580px) {
+   .presentation .profile-picture {
+      max-height: 200px;
+      max-width: 200px;
+   }
 }
