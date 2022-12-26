@@ -1,0 +1,64 @@
+.presentation {
+   display: flex;
+   align-items: center;
+}
+
+.presentation .profile-picture {
+   max-height: 300px;
+   max-width: 300px;
+   margin-right: 50px;
+
+   border: 5px solid var(--green);
+}
+
+.presentation .contact-container {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.presentation .contact-container a {
+   text-decoration: none;
+}
+
+.presentation .contact-info {
+   border: 1px solid var(--yellow);
+   padding: 10px;
+   margin-left: 10px;
+}
+
+/* 920px to 1380px (laptop) */
+@media screen and (max-width: 1380px) {
+   .presentation .profile-picture {
+      max-height: 280px;
+      max-width: 280px;
+      margin-right: 35px;
+   
+      border: 5px solid var(--green);
+   }
+}
+
+/* 580px to 920px (tablet) */
+@media screen and (max-width: 920px) {
+   .presentation {
+      flex-direction: column;
+   }
+
+   .presentation .profile-picture {
+      max-height: 250px;
+      max-width: 250px;
+      margin-right: unset;
+   }
+
+   .presentation .contact-container {
+      justify-content: space-evenly;
+
+   }
+
+   .presentation .contact-info {
+      margin-left: 0px;
+   }
+}
+
+/* up to 580px (mobile) */
+@media screen and (max-width: 580px) {
+}

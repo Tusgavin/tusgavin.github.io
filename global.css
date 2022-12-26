@@ -1,0 +1,106 @@
+/* Default */
+:root {
+   --black: #000000;
+   --grey: #333333;
+   --green: #00ff00;
+   --yellow: #ffff33;
+   --white: #ffffff;
+
+   font-family: 'Source Code Pro', monospace;
+   background-color: var(--black);
+}
+
+/* Containers */
+.container {
+   max-width: 1080px;
+   margin: 0 auto;
+}
+
+.component-container {
+   padding: 60px 0;
+}
+
+/* Universal */
+.title {
+   background-color: var(--green);
+   color: var(--black);
+
+   font-size: 32px;
+   line-height: 50px;
+}
+
+.primary-text {
+   color: var(--green);
+
+   font-size: 20px;
+   line-height: 24px;
+   letter-spacing: 1.2px;
+
+   margin: 16px 0px;
+}
+
+.secondary-text {
+   color: var(--yellow);
+   border: 1px solid var(--yellow);
+   letter-spacing: 3px;
+}
+
+/* 920px to 1380px (laptop) */
+@media screen and (max-width: 1380px) {
+   .container {
+      max-width: 900px;
+   }
+
+   .component-container {
+      padding: 44px 0;
+   }
+
+   .title {
+      font-size: 28px;
+      line-height: 40px;
+   }
+
+   .primary-text {
+      color: var(--green);
+   
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: 1px;
+   }
+}
+
+/* 580px to 920px (tablet) */
+@media screen and (max-width: 920px) {
+   .container {
+      max-width: 100%;
+      padding: 0 48px;
+   }
+
+   .component-container {
+      padding: 30px 0;
+   }
+}
+
+/* up to 580px (mobile) */
+@media screen and (max-width: 580px) {
+   .container {
+      padding: 0 20px;
+   }
+
+   .component-container {
+      padding: 20px 0;
+   }
+
+   .title {
+      font-size: 24px;
+      line-height: 36px;
+   }
+
+   .primary-text {
+      color: var(--green);
+   
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: .75px;
+   }
+}
