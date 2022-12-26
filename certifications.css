@@ -1,0 +1,48 @@
+.certifications .content {
+   display: grid;
+   margin: 24px 0;
+   grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+}
+
+.certifications a {
+   border: 1px solid var(--yellow);
+   padding: 12px;
+
+   transition-duration: 0.4s;
+}
+
+.certifications a:hover {
+   color: var(--green);
+   border: 1px solid var(--green);
+}
+
+.certifications .primary-text {
+   color: var(--yellow);
+}
+
+.certifications a:hover .primary-text {
+   color: var(--green);
+}
+
+
+/* 920px to 1380px (laptop) */
+@media screen and (max-width: 1380px) {
+
+}
+
+/* 580px to 920px (tablet) */
+@media screen and (max-width: 920px) {
+   .certifications .content {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 30px;
+   }
+}
+
+/* up to 580px (mobile) */
+@media screen and (max-width: 580px) {
+   .certifications .content {
+      grid-template-columns: 1fr;
+      grid-gap: 15px;
+   }
+}

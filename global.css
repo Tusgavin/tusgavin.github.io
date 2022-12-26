@@ -10,6 +10,10 @@
    background-color: var(--black);
 }
 
+a {
+   text-decoration: none;
+}
+
 /* Containers */
 .container {
    max-width: 1080px;
@@ -35,12 +39,6 @@
    font-size: 20px;
    line-height: 24px;
    letter-spacing: 1.2px;
-}
-
-.button-text {
-   color: var(--yellow);
-   border: 1px solid var(--yellow);
-   letter-spacing: 3px;
 }
 
 /* 920px to 1380px (laptop) */

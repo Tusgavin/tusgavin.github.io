@@ -1,0 +1,20 @@
+.presentation .content {
+   display: flex;
+   align-items: center;
+   margin: 24px 0;
+}
+
+/* 920px to 1380px (laptop) */
+@media screen and (max-width: 1380px) {
+
+}
+
+/* 580px to 920px (tablet) */
+@media screen and (max-width: 920px) {
+
+}
+
+/* up to 580px (mobile) */
+@media screen and (max-width: 580px) {
+
+}

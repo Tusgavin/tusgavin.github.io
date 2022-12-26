@@ -1,6 +1,7 @@
 .presentation .content {
    display: flex;
    align-items: center;
+   margin: 24px 0;
 }
 
 .presentation .profile-picture {
@@ -14,10 +15,13 @@
 .presentation .contact-container {
    display: flex;
    justify-content: flex-end;
+   margin-top: 24px;
 }
 
-.presentation .contact-container a {
-   text-decoration: none;
+.presentation .button-text {
+   color: var(--yellow);
+   border: 1px solid var(--yellow);
+   letter-spacing: 3px;
 }
 
 .presentation .contact-info {
